@@ -1,14 +1,18 @@
 #include <stdio.h>
 
+#define LOWER 0;
+#define UPPER 300;
+#define STEP 20;
+
 void printTitle();
 
 int main() {
     float fahr, celsius;
     int lower, upper, step;
 
-    lower = 0;
-    upper = 300;
-    step = 20;
+    lower = LOWER;
+    upper = UPPER;
+    step = STEP;
 
     fahr = lower;
     printTitle();

@@ -1,14 +1,18 @@
 #include <stdio.h>
 
+#define LOWER -100;
+#define UPPER 300;
+#define STEP 20;
+
 int main() {
 
     float c,f;
 
     int step, lower, upper;
 
-    step = 20;
-    lower = -100;
-    upper = 300;
+    step = STEP;
+    lower = LOWER;
+    upper = UPPER;
 
     c = lower;
     while (c <= upper) {
